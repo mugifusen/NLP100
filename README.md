@@ -2,13 +2,26 @@
 おすすめ設定（真似していいよ）
 # git.sh
 ```sh
-$ sh git.sh
+$ touch git.sh
 ```
-を打つと、その中に記述されているスクリプトが実行される。  
-`git.sh`のファイルは以下の内容が記述されている。
+でファイルを作成。
 ```
+$ vim git.sh
+```
+でファイルを編集。  
+ファイルには以下のように記述する。
+```sh
 git add -A
 git commit -m 'edited'
 git push origin tani
 ```
 つまりこのスクリプトを実行すると、`tani`というブランチに対して一括でadd、commit、pushまでしてくれる。
+
+```sh
+$ sh git.sh
+```
+でスクリプトを実行。  
+```
+sh g
+```
+まで打って`Tabキー`を押すと自動で補完してくれるはず。
