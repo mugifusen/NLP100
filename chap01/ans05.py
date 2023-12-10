@@ -8,7 +8,6 @@ def n_gram(words, n):
    for i in range(len(words) + 1 - n):
        ans.append(words[i:i+n])
    return ans
-
 s = "I am an NLPer"
 
 #単語bi-gram
