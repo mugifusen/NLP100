@@ -5,4 +5,6 @@ word_list = []
 for word in words:
     word_list.append(word)
 
-print(word_list)
+#print(word_list)
+if word_list[1]:
+    print()
