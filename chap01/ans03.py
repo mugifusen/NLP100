@@ -2,6 +2,7 @@ s = "Now I need a drink, alcoholic of course, after the heavy lectures involving
 words = s.split()
 lengths = []
 
+
 for i in words:
     count = len(i)
     lengths.append(count)
