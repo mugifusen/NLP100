@@ -1,10 +1,5 @@
-s = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
-words = s.split()  # Corrected: use parentheses to call the split method
-word_list = []
-
-for word in words:
-    word_list.append(word)
-
-#print(word_list)
-if word_list[1]:
-    print()
+text = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+word_list = text.split()
+one_word = [1, 5, 6, 7, 8, 9, 15, 16, 19]
+ans_list = [word_list[i][0] if i+1 in one_word else word_list[i][:2] for i in range(len(word_list))]
+print(ans_list)
