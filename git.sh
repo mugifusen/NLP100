@@ -1,4 +1,3 @@
 git add -A
-git commit -m 'とりあえずやったところまで'
+git commit -m 'README.mdの編集'
 git push origin tani
-
