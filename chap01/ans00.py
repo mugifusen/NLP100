@@ -1,1 +1,2 @@
-print("hello")
+text = "stressed"
+print(text[::-1])
