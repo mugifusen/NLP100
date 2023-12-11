@@ -1,5 +1,8 @@
 # This is TANI's branch!
-おすすめ設定（真似していいよ）
+教材  
+[https://nlp100.github.io/ja/](https://nlp100.github.io/ja/)
+
+以下おすすめ設定（真似していいよ）
 # git.sh
 ```sh
 $ touch git.sh
