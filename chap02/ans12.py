@@ -1,6 +1,6 @@
 
 with open('popular-names.txt', 'r', encoding='utf-8') as f1, \
-     open('col1.txt.txt', 'w', encoding='utf-8') as f2, \
+     open('col1.txt', 'w', encoding='utf-8') as f2, \
      open('col2.txt', 'w', encoding='utf-8') as f3:
     for line in f1:
         columns = line.strip().split()
