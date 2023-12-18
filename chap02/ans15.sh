@@ -1,1 +1,1 @@
-!tail -n 10 popular-names.txt
+tail -n 10 popular-names.txt

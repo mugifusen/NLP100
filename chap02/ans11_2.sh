@@ -1,1 +1,1 @@
-!sed -e 's/\t/ /g' ./popular-names.txt
+sed -e 's/\t/ /g' ./popular-names.txt

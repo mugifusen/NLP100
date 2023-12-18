@@ -1,1 +1,1 @@
-!head -n 10 popular-names.txt
+head -n 10 popular-names.txt

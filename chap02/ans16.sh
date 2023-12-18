@@ -1,1 +1,1 @@
-!split -n 2 popular-names.txt
+split -n 2 popular-names.txt

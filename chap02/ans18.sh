@@ -1,1 +1,1 @@
-!cut -f 3  popular-names.txt | sort -n -r
+cut -f 3  popular-names.txt | sort -n -r
