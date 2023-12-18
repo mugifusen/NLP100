@@ -1,9 +1,7 @@
-file_path = 'ans12-1.txt'
-
-with open(file_path, 'r', encoding='utf-8') as file:
+with open('ans12-1.txt', 'r', encoding='utf-8') as file:
     content = file.read()
-    unique_strings = set(content.split())
+    string = set(content.split())
+    #得られた単語のリストからユニークな要素を取り出し、それらを含む集合 string を作成
+count = len(string)
 
-unique_strings_count = len(unique_strings)
-
-print("異なる文字列の集合の数:", unique_strings_count)
+print("異なる文字列の集合の数:", count)
