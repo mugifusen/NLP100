@@ -1,9 +1,12 @@
 
-with open('popular-names.txt', 'r', encoding='utf-8') as input_file, \
-     open('ans12-1.txt', 'w', encoding='utf-8') as output1_file, \
-     open('ans12-2.txt', 'w', encoding='utf-8') as output2_file:
-    for line in input_file:
+with open('popular-names.txt', 'r', encoding='utf-8') as f1, \
+     open('col1.txt.txt', 'w', encoding='utf-8') as f2, \
+     open('col2.txt', 'w', encoding='utf-8') as f3:
+    for line in f1:
         columns = line.strip().split()
+        #line.strip() = 先頭と末尾の空白文字を取り除く
+        #line.strip().strip() = lineを空白文字で分割
+    
         if len(columns) >= 2:  # 少なくとも2列以上ある行のみ処理
-            output1_file.write(columns[0] + '\n')
-            output2_file.write(columns[1] + '\n')        
+            f2.write(columns[0] + '\n')
+            f3.write(columns[1] + '\n')        
