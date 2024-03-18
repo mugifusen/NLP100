@@ -741,6 +741,22 @@ files = [
 ]
 
 [[package]]
+name = "graphviz"
+version = "0.20.2"
+description = "Simple Python interface for Graphviz"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "graphviz-0.20.2-py3-none-any.whl", hash = "sha256:63d1ae75f1ca60f980e1cd3a61a678eef8de645ef8427736b2bb9bdd035ca44b"},
+    {file = "graphviz-0.20.2.zip", hash = "sha256:d29ca3aadbe5d6e6c584045b7ec4fc1c15af2448dc1c0211b5e94344833243da"},
+]
+
+[package.extras]
+dev = ["flake8", "pep8-naming", "tox (>=3)", "twine", "wheel"]
+docs = ["sphinx (>=5,<7)", "sphinx-autodoc-typehints", "sphinx-rtd-theme"]
+test = ["coverage", "pytest (>=7,<8.1)", "pytest-cov", "pytest-mock (>=3)"]
+
+[[package]]
 name = "h11"
 version = "0.14.0"
 description = "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1"
@@ -2064,6 +2080,39 @@ files = [
 ]
 
 [[package]]
+name = "pydot"
+version = "2.0.0"
+description = "Python interface to Graphviz's Dot"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pydot-2.0.0-py3-none-any.whl", hash = "sha256:408a47913ea7bd5d2d34b274144880c1310c4aee901f353cf21fe2e526a4ea28"},
+    {file = "pydot-2.0.0.tar.gz", hash = "sha256:60246af215123fa062f21cd791be67dda23a6f280df09f68919e637a1e4f3235"},
+]
+
+[package.dependencies]
+pyparsing = ">=3"
+
+[package.extras]
+dev = ["black", "chardet"]
+release = ["zest.releaser[recommended]"]
+tests = ["black", "chardet", "tox"]
+
+[[package]]
+name = "pydot-ng"
+version = "2.0.0"
+description = "Python interface to Graphviz's Dot"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pydot_ng-2.0.0-py2.py3-none-any.whl", hash = "sha256:251ec5cde0d20ebd467b12fd8a4db0f52d2fbf6e12660a969a226823ba38644e"},
+    {file = "pydot_ng-2.0.0.tar.gz", hash = "sha256:8c8073b97aa7030c28118961e2c6c92f046e4cb57aeba7df87146f7baa6530c5"},
+]
+
+[package.dependencies]
+pyparsing = ">=2.0.1"
+
+[[package]]
 name = "pyflakes"
 version = "3.2.0"
 description = "passive checker of Python programs"
@@ -2784,4 +2833,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "80dc53441b23d8098f718b818dcd5636f6b4d1fa94547e18863f723f214b44eb"
+content-hash = "1f73596f6f5551e01d8b918484ca010a2f2aa253073d458ad4bf7de865436187"
