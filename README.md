@@ -27,6 +27,10 @@ $ git checkout -b Sample
 $ git add -A
 $ git commit -m "your message"
 ```
+コメントがいらない場合
+```
+$ git commit --allow-empty-message -m ""
+```
 
 4. GitHubのリモートリポジトリに反映
 ```
