@@ -27,6 +27,12 @@ $ git checkout -b Sample
 $ git add -A
 $ git commit -m "your message"
 ```
+
+特定のファイルのみコミット
+```
+$ git add { ファイルパス }
+```
+
 コメントがいらない場合
 ```
 $ git commit --allow-empty-message -m ""
@@ -42,3 +48,4 @@ $ git push origin Sample
 - `git branch Sample` : ブランチを作成できる
 - `git checkout Sample` or `git switch Sample` : ブランチの移動
 - `git pull` : リモートリポジトリの最新状態をローカルに反映
+- `git status` : 作業ディレクトリの状態とステージングエリアの状態を表示
